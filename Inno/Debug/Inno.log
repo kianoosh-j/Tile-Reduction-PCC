@@ -1,0 +1,40 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  P:\Innovation project\Inno\Inno>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "P:\Innovation project\Inno\Inno\kernel.cu" 
+P:/Innovation project/Inno/Inno/kernel.cu(270): warning : transfer of control bypasses initialization of:
+P:/Innovation project/Inno/Inno/kernel.cu(281): warning : transfer of control bypasses initialization of:
+P:/Innovation project/Inno/Inno/kernel.cu(289): warning : transfer of control bypasses initialization of:
+P:/Innovation project/Inno/Inno/kernel.cu(310): warning : transfer of control bypasses initialization of:
+P:/Innovation project/Inno/Inno/kernel.cu(270): warning : transfer of control bypasses initialization of:
+P:/Innovation project/Inno/Inno/kernel.cu(281): warning : transfer of control bypasses initialization of:
+P:/Innovation project/Inno/Inno/kernel.cu(289): warning : transfer of control bypasses initialization of:
+P:/Innovation project/Inno/Inno/kernel.cu(310): warning : transfer of control bypasses initialization of:
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+P:/Innovation project/Inno/Inno/kernel.cu(213): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+P:/Innovation project/Inno/Inno/kernel.cu(295): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+P:/Innovation project/Inno/Inno/kernel.cu(296): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+P:/Innovation project/Inno/Inno/kernel.cu(326): warning C4533: initialization of 't2' is skipped by 'goto Error'
+  P:/Innovation project/Inno/Inno/kernel.cu(313): note: see declaration of 't2'
+  P:/Innovation project/Inno/Inno/kernel.cu(326): note: see declaration of 'Error'
+P:/Innovation project/Inno/Inno/kernel.cu(326): warning C4533: initialization of 't1' is skipped by 'goto Error'
+  P:/Innovation project/Inno/Inno/kernel.cu(301): note: see declaration of 't1'
+  P:/Innovation project/Inno/Inno/kernel.cu(326): note: see declaration of 'Error'
+P:/Innovation project/Inno/Inno/kernel.cu(326): warning C4533: initialization of 'gridSize' is skipped by 'goto Error'
+  P:/Innovation project/Inno/Inno/kernel.cu(297): note: see declaration of 'gridSize'
+  P:/Innovation project/Inno/Inno/kernel.cu(326): note: see declaration of 'Error'
+P:/Innovation project/Inno/Inno/kernel.cu(326): warning C4533: initialization of 'blockSize' is skipped by 'goto Error'
+  P:/Innovation project/Inno/Inno/kernel.cu(294): note: see declaration of 'blockSize'
+  P:/Innovation project/Inno/Inno/kernel.cu(326): note: see declaration of 'Error'
+P:/Innovation project/Inno/Inno/kernel.cu(338): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+P:/Innovation project/Inno/Inno/kernel.cu(372): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+P:/Innovation project/Inno/Inno/kernel.cu(373): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+P:/Innovation project/Inno/Inno/kernel.cu(374): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+P:/Innovation project/Inno/Inno/kernel.cu(375): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+P:/Innovation project/Inno/Inno/kernel.cu(376): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Inno.vcxproj -> P:\Innovation project\Inno\Debug\Inno.exe
+  Inno.vcxproj -> P:\Innovation project\Inno\Debug\Inno.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "P:\Innovation project\Inno\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
